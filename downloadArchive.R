@@ -6,7 +6,6 @@ if(!file.exists(archiveFile)) {
     
     download.file(url=archiveURL,destfile=archiveFile)
 }
-
 if(!(file.exists("summarySCC_PM25.rds") && file.exists("Source_Classification_Code.rds"))) { 
     unzip(archiveFile) 
 }
