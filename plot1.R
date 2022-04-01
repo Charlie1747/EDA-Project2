@@ -19,4 +19,3 @@ barplot(
 
 dev.off()
 
-© 2022 GitHub, Inc.
