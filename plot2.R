@@ -20,5 +20,4 @@ barplot(
   ylab="PM2.5 Emissions (Tons)",
   main="Total PM2.5 Emissions From all Baltimore City Sources"
 )
-
 dev.off()
